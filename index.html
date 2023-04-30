@@ -144,11 +144,10 @@
                 <!-- Sidebar Message -->
                 <div class="sidebar-card d-none d-lg-flex">
                     <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
-                    <p class="text-center mb-2"><strong>Premium Membership</strong> Buy our premium Membership and get
-                        exicting
-                        offers</p>
+                    <p class="text-center mb-2"><strong>Pricing Details</strong> We have different price
+                    </p>
                     <a class="btn btn-success btn-sm" href="#">View our
-                        Package</a>
+                        Packages</a>
                 </div>
 
             </ul>
@@ -335,7 +334,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">HistoscanUser</span>
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Dr. Amitabh Sharma</span>
                                     <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                                 </a>
                                 <!-- Dropdown - User Information -->
@@ -388,7 +387,7 @@
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                     Patient Summary (Monthly)</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -483,12 +482,13 @@
                         <div class="row">
 
                             <!-- Area Chart -->
-                            <div class="col-xl-3 col-lg-3">
+                            <div class="col-xl-4 col-lg-4">
                                 <div class="card shadow mb-4">
                                     <!-- Card Header - Dropdown -->
                                     <div
                                         class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Lung Nodule 3D</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">CT Diagnosis (Patient ID : 13348)
+                                        </h6>
                                         <div class="dropdown no-arrow">
                                             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -508,19 +508,21 @@
                                     <div class="card-body">
                                         <div class="chart-area">
                                             <img src="img/Nodule.jpg" alt=""
-                                                style="height:auto; width: 90%; margin:1rem 1rem;">
+                                                style="height:auto; width: 80%; margin:1rem 4rem; max-height: 300px;">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Pie Chart -->
-                            <div class="col-xl-9 col-lg-9">
+                            <!-- Histopathology -->
+                            <div class="col-xl-4 col-lg-4">
                                 <div class="card shadow mb-4">
                                     <!-- Card Header - Dropdown -->
                                     <div
                                         class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Sources</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">Histopathology Diagnosis (Patient
+                                            ID : 13348)
+                                        </h6>
                                         <div class="dropdown no-arrow">
                                             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -538,20 +540,46 @@
                                     </div>
                                     <!-- Card Body -->
                                     <div class="card-body">
-                                        <div class="chart-pie pt-4 pb-2">
-                                            <canvas id="myPieChart"></canvas>
+                                        <div class="chart-area">
+                                            <img src="img/Histopathology.jpeg" alt=""
+                                                style="height:auto; width: 90%; margin:4rem 1rem;">
                                         </div>
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-circle text-primary"></i> CT Scans
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-circle text-success"></i> Histopathelogy
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-circle text-info"></i> Another Service In future
-                                            </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pie Chart -->
+                            <div class="col-xl-4 col-lg-4">
+                                <div class="card shadow mb-4">
+                                    <!-- Card Header - Dropdown -->
+                                    <div
+                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary">Patient Summary</h6>
+                                        <div class="dropdown no-arrow">
+                                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                aria-labelledby="dropdownMenuLink">
+                                                <div class="dropdown-header">Dropdown Header:</div>
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <!-- Card Body -->
+                                    <div class="card-body">
+                                        <img src="img/man.png" alt=""
+                                            style="height: auto; width: 25%; margin: 1rem; border-radius: 50%;">
+                                        <h6 style="">Initial Date Of Diagnosis: 23-04-23</h6>
+                                        <h6>Patient Name: Chirag Bansal</h6>
+                                        <h6>Patient ID: 13348</h6>
+                                        <h6>Age: 59</h6>
+                                        <h6>Gender: M</h6>
+                                        <h6>Smoking Status: Non-Smoker</h6>
                                     </div>
                                 </div>
                             </div>
@@ -566,39 +594,56 @@
                                 <!-- Project Card Example -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Efficiency</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">Patient Messages</h6>
                                     </div>
                                     <div class="card-body">
-                                        <h4 class="small font-weight-bold">Review of Images <span
-                                                class="float-right">68%</span></h4>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 68%"
-                                                aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4 class="small font-weight-bold">Initial Impressions <span
-                                                class="float-right">70%</span></h4>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%"
-                                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4 class="small font-weight-bold">Detailed Analysis <span
-                                                class="float-right">30%</span></h4>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar" role="progressbar" style="width: 30%"
-                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4 class="small font-weight-bold"> Report Generation <span
-                                                class="float-right">80%</span></h4>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%"
-                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4 class="small font-weight-bold">Payout Details <span
-                                                class="float-right">Complete!</span></h4>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
-                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image mr-3">
+                                                <img class="rounded-circle" src="img/young-man.png" alt="..."
+                                                    style="height:70px; width:70px; border-radius: 50%;">
+                                                <div class="status-indicator bg-success"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate">Waiting for my reports doc! </div>
+                                                <div class="small text-gray-500">Saraswat · 58m</div>
+                                            </div>
+                                        </a>
+
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image mr-3">
+                                                <img class="rounded-circle" src="img/woman.png" alt="..."
+                                                    style="height:70px; width:70px; border-radius: 50%;">
+                                                <div class="status-indicator bg-success"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate">When Can I fix an appointment with you?</div>
+                                                <div class="small text-gray-500">Shikha · 58m</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image mr-3">
+                                                <img class="rounded-circle" src="img/businesswoman.png" alt="..."
+                                                    style="height:70px; width:70px; border-radius: 50%;">
+                                                <div class="status-indicator bg-success"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate">I want an appointment for tomorrow 1:00pm
+                                                    will you be available?
+                                                </div>
+                                                <div class="small text-gray-500">Gurpreet · 58m</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image mr-3">
+                                                <img class="rounded-circle" src="img/man.png" alt="..."
+                                                    style="height:70px; width:70px; border-radius: 50%;">
+                                                <div class="status-indicator bg-success"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate">Can you confirm my appointment</div>
+                                                <div class="small text-gray-500">Nisha · 58m</div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
 
